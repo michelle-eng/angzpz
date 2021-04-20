@@ -1,0 +1,43 @@
+h1{
+    color: #abbbce;
+    text-align: center;
+    font-size: 70px;
+    background: #5B0A11;
+    background-size: auto;
+}
+
+.intro{
+    text-align: center;
+}
+
+.inte{
+    text-align: center;
+}
+
+.nav-enlace{
+    display: inline-block;
+    background: #87101A;
+    color: #CABDC9;
+    padding: 10px 20px;
+}
+
+.nav-enlace:hover{
+    background: #5F8B92;
+}
+
+nav{
+    background: #7D4A54;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width: 600px){
+    nav{
+        background: #0F515C;
+        flex-direction: column;
+    }
+
+    .nav-enlace{
+        margin: 10px 0;
+    }
+}
